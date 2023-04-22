@@ -1,15 +1,8 @@
-const addLeadingZero = (number) => (number < 10 ? `0${number}` : number);
+const moment = require("moment");
 
+// use moment to display the date in a format we want
 const dateFormat = (timestamp) => {
-  const dateObject = new Date(timestamp);
-  const formattedDate = `${addLeadingZero(
-    dateObject.getDate()
-  )}/${addLeadingZero(dateObject.getMonth() + 1)}/${dateObject.getFullYear()}`; // date/month/year
-  const hours = addLeadingZero(dateObject.getHours());
-  const minutes = addLeadingZero(dateObject.getMinutes());
-  const seconds = addLeadingZero(dateObject.getSeconds());
-
-  return `${formattedDate} ${hours}:${minutes}:${seconds}`;
+  return moment(timestamp).format("DD/MM/YYYY [at] hh:mm a");
 };
 
 module.exports = dateFormat;
