@@ -37,16 +37,22 @@ npm install
 ## Usage
 
 To view this application,the following image shows the landing page of the application, or click on the page link that demonstrates the functionality of this project:\
-<https://infinite-depths-74692.herokuapp.com/>
+<https://drive.google.com/file/d/1I6uyQkLSPk20cvhjlWYKIQ2ptE1dVpFT/view?usp=sharing>
 
-Homepage:
-![Social-Network](public/images/homepage.png)
-![Social-Network](public/images/homepage.png)
-![Social-Network](public/images/homepage.png)
+All users of this application:
+![Social-Network](public/images/get-all-users.png)
 
+All thoughts of this application:
+![Social-Network](public/images/get-all-thoughts.png)
 
+Create a new user:
+![Social-Network](public/images/create-user.png)
 
+Create a new thought for a user:
+![Social-Network](public/images/create-thought.png)
 
+Create a new reaction for a thought:
+![Social-Network](public/images/create-reaction.png)
 
 ## License
 
